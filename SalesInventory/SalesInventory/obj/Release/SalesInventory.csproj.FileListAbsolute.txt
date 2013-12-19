@@ -1,0 +1,9 @@
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Release\ResolveAssemblyReference.cache
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Release\SalesInventory.FORMS.frmCategory.resources
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Release\SalesInventory.FORMS.frmProductEntry.resources
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Release\SalesInventory.FORMS.frmStockIn.resources
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Release\SalesInventory.FORMS.frmUnitOfMeasure.resources
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Release\SalesInventory.FORMS.mainSalesInventory.resources
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Release\SalesInventory.FORMS.MyBaseList.resources
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Release\SalesInventory.Properties.Resources.resources
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Release\SalesInventory.csproj.GenerateResource.Cache

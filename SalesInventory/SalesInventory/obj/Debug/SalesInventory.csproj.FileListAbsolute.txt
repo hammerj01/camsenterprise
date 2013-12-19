@@ -11,3 +11,5 @@ D:\PROJECTS\SalesInventory\SalesInventory\obj\Debug\SalesInventory.FORMS.frmStoc
 D:\PROJECTS\SalesInventory\SalesInventory\obj\Debug\SalesInventory.FORMS.frmProductEntry.resources
 D:\PROJECTS\SalesInventory\SalesInventory\obj\Debug\SalesInventory.FORMS.frmCategory.resources
 D:\PROJECTS\SalesInventory\SalesInventory\obj\Debug\SalesInventory.FORMS.frmUnitOfMeasure.resources
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.exe
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.pdb
