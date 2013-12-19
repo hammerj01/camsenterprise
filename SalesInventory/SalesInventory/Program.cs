@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 using SalesInventory.FORMS;
-using SalesInventory.Classes;
+using prjCamsEnterprise.Classes;
 
 namespace SalesInventory
 {
@@ -19,10 +19,15 @@ namespace SalesInventory
             //Application.EnableVisualStyles();
             ////Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
-            
-            mainSalesInventory main = new mainSalesInventory();
-            main.ShowDialog();
-            
+
+            PUBLIC_VARIABLES.db.Server = "localhost";
+            PUBLIC_VARIABLES.db.User = "root";
+            PUBLIC_VARIABLES.db.Pw = "jr101210";
+            PUBLIC_VARIABLES.db.Db = "dbcams_inventory";
+            if (PUBLIC_VARIABLES.db.Connect() == true) {
+                mainSalesInventory main = new mainSalesInventory();
+                main.ShowDialog();
+            }
         }
     }
 }

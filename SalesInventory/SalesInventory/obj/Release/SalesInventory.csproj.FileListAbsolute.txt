@@ -7,3 +7,8 @@ C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Re
 C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Release\SalesInventory.FORMS.MyBaseList.resources
 C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Release\SalesInventory.Properties.Resources.resources
 C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Release\SalesInventory.csproj.GenerateResource.Cache
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\bin\Release\SalesInventory.exe
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\bin\Release\SalesInventory.pdb
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\bin\Release\MySql.Data.dll
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Release\SalesInventory.exe
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Release\SalesInventory.pdb

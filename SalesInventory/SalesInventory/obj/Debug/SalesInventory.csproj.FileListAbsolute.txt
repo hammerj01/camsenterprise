@@ -13,3 +13,14 @@ D:\PROJECTS\SalesInventory\SalesInventory\obj\Debug\SalesInventory.FORMS.frmCate
 D:\PROJECTS\SalesInventory\SalesInventory\obj\Debug\SalesInventory.FORMS.frmUnitOfMeasure.resources
 C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.exe
 C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.pdb
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\bin\Debug\SalesInventory.exe
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\bin\Debug\SalesInventory.pdb
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.FORMS.frmCategory.resources
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.FORMS.frmProductEntry.resources
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.FORMS.frmStockIn.resources
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.FORMS.frmUnitOfMeasure.resources
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.FORMS.mainSalesInventory.resources
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.FORMS.MyBaseList.resources
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.Properties.Resources.resources
+C:\Users\RHAINECYRUS\Dropbox\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.csproj.GenerateResource.Cache
