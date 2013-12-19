@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace SalesInventory.FORMS
 {
-    public partial class frmUnitOfMeasure : SalesInventory.FORMS.frmCategory
+    public partial class frmUnitofMeasure : SalesInventory.FORMS.MyBaseList
     {
-        public frmUnitOfMeasure()
+        public frmUnitofMeasure()
         {
             InitializeComponent();
         }

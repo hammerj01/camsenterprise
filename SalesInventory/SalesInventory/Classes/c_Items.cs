@@ -27,6 +27,7 @@ namespace prjCamsEnterprise.Classes
             this.m_price = 0d;
             this.srp_price = 0d;
             this.item_description = "";
+            this.item_code = "";
         }
 
         #region "GETTERS AND SETTERS"
@@ -154,10 +155,10 @@ namespace prjCamsEnterprise.Classes
             base.addValue("NULL", true);
             base.addValue(pitem_name);
             base.addValue(pitem_description);
-            base.addValue(pitem_qty);
-            base.addValue(pm_price);
-            base.addValue(psrp_price);
-            base.addValue(preorder);
+            base.addValue(this.pitem_qty.ToString());
+            base.addValue(this.pm_price.ToString());
+            base.addValue(this.psrp_price.ToString());
+            base.addValue(this.preorder.ToString());
             base.addValue(this.item_code);
 
             base.save("Record has been successfully save.");
