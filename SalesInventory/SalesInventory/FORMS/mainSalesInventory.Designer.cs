@@ -36,6 +36,7 @@
             this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.stocksToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.transactionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.paymentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -55,7 +56,6 @@
             this.returnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.damageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.stocksToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -126,6 +126,13 @@
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(53, 29);
             this.fileToolStripMenuItem.Text = "&File";
             this.fileToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
+            // 
+            // stocksToolStripMenuItem1
+            // 
+            this.stocksToolStripMenuItem1.Name = "stocksToolStripMenuItem1";
+            this.stocksToolStripMenuItem1.Size = new System.Drawing.Size(137, 30);
+            this.stocksToolStripMenuItem1.Text = "&Stocks";
+            this.stocksToolStripMenuItem1.Click += new System.EventHandler(this.stocksToolStripMenuItem1_Click);
             // 
             // transactionToolStripMenuItem
             // 
@@ -208,6 +215,7 @@
             this.categoryToolStripMenuItem.Name = "categoryToolStripMenuItem";
             this.categoryToolStripMenuItem.Size = new System.Drawing.Size(219, 30);
             this.categoryToolStripMenuItem.Text = "&Category";
+            this.categoryToolStripMenuItem.Click += new System.EventHandler(this.categoryToolStripMenuItem_Click);
             // 
             // unitOfMeasureToolStripMenuItem
             // 
@@ -258,13 +266,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(1362, 648);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
-            // 
-            // stocksToolStripMenuItem1
-            // 
-            this.stocksToolStripMenuItem1.Name = "stocksToolStripMenuItem1";
-            this.stocksToolStripMenuItem1.Size = new System.Drawing.Size(152, 30);
-            this.stocksToolStripMenuItem1.Text = "&Stocks";
-            this.stocksToolStripMenuItem1.Click += new System.EventHandler(this.stocksToolStripMenuItem1_Click);
             // 
             // mainSalesInventory
             // 

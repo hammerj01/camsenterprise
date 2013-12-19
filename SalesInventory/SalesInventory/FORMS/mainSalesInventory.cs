@@ -31,5 +31,11 @@ namespace SalesInventory.FORMS
             frmStockIn frm = new frmStockIn();
             frm.ShowDialog();
         }
+
+        private void categoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCategory cat = new frmCategory();
+            cat.ShowDialog();
+        }
     }
 }

@@ -16,8 +16,8 @@ namespace SalesInventory
         static void Main()
         {
 
-            //Application.EnableVisualStyles();
-            ////Application.SetCompatibleTextRenderingDefault(false);
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
 
             PUBLIC_VARIABLES.db.Server = "localhost";
