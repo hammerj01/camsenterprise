@@ -37,7 +37,20 @@ namespace SalesInventory.FORMS
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            //this.items.pitem_name = d;
+     
         }
+
+        public void getItems()
+        { 
+            items.pitem_name = txtProductName.Text;
+            items.pitem_description = txtProductDetails.Text;
+            items.pitem_qty = Convert.ToInt32(txtQty.Text);
+            items.pm_price = Convert.ToDouble(txtDealersPrice.Text);
+            items.psrp_price = Convert.ToDouble(txtSRP.Text);
+            items.preorder = Convert.ToInt32(txtReOrder.Text);
+
+
+        }
+
     }
 }

@@ -27,7 +27,7 @@ namespace SalesInventory.FORMS
 
         private void frmCategory_Load(object sender, EventArgs e)
         {
-           // this.cat.LoadCategory(this.listView1);
+            this.cat.LoadCategory(this.listView1);
         }
     }
 }

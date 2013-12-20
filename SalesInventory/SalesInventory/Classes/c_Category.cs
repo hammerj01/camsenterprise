@@ -8,10 +8,10 @@ namespace prjCamsEnterprise.Classes
 {
     class c_Category:BaseClass
     {
-        private int category_id;
-        private String category_name;
+        private double category_id;
+        private string category_name;
 
-        public int pcategory_id
+        public double pcategory_id
         {
             get
             {
@@ -63,7 +63,7 @@ namespace prjCamsEnterprise.Classes
         }
 
         public void delete() {
-            string sql = "DELETE FROM ";
+            string sql = "DELETE FROM tcategory WHERE category_id = " + this.pcategory_id;
             
         }
 

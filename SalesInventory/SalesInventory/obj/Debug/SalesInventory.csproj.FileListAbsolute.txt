@@ -36,4 +36,4 @@ D:\PROJECTS\gitInventory\camsenterprise\SalesInventory\SalesInventory\obj\Debug\
 D:\PROJECTS\gitInventory\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.csproj.GenerateResource.Cache
 D:\PROJECTS\gitInventory\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.exe
 D:\PROJECTS\gitInventory\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.pdb
-D:\PROJECTS\gitInventory\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.FORMS.Form1.resources
+D:\PROJECTS\gitInventory\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.FORMS.frmUnitofMeasure.resources

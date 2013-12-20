@@ -40,7 +40,7 @@
             this.btnSave = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtQty = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtReOrder = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -178,15 +178,15 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "Category :";
             // 
-            // textBox3
+            // txtQty
             // 
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(407, 138);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(97, 25);
-            this.textBox3.TabIndex = 12;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtQty.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtQty.Location = new System.Drawing.Point(407, 138);
+            this.txtQty.Margin = new System.Windows.Forms.Padding(4);
+            this.txtQty.Name = "txtQty";
+            this.txtQty.Size = new System.Drawing.Size(97, 25);
+            this.txtQty.TabIndex = 12;
+            this.txtQty.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
@@ -254,7 +254,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(218, 25);
             this.label8.TabIndex = 19;
-            this.label8.Text = "Dealer\'s Price :";
+            this.label8.Text = "SRP :";
             // 
             // textBox1
             // 
@@ -288,7 +288,7 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtReOrder);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtQty);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtProductName);
             this.Controls.Add(this.btnClear);
@@ -325,7 +325,7 @@
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtQty;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtReOrder;
         private System.Windows.Forms.Label label5;
