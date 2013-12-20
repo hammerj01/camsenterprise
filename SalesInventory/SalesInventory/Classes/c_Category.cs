@@ -47,6 +47,26 @@ namespace prjCamsEnterprise.Classes
 
             base.save("New Category Saved!");
         }
+        public void update() {
+            //category_id, category_name
+            base.reset();
+            base.addTable("tcategory");
+            base.addField("category_id");
+            base.addField("category_name");
+
+            base.addValue(this.pcategory_id.ToString(), true);
+            base.addValue(this.pcategory_name);
+
+            base.addWhereClause("category_id="+this.pcategory_id);
+
+            base.edit("Category UPdated");
+        }
+
+        public void delete() {
+            string sql = "DELETE FROM ";
+            
+        }
+
         public void LoadCategory(ListView lsv)
         {
           //  throw new System.NotImplementedException();
@@ -67,5 +87,23 @@ namespace prjCamsEnterprise.Classes
             }
             PUBLIC_VARIABLES.db.reader.Close();
         }
+
+        public void LoadCategory(double id) {
+            string sql = "SELECT * FROM `dbcams_inventory`.`tcategory` WHERE category_id="+id;
+            try {
+                PUBLIC_VARIABLES.db.execute(sql);
+                if(PUBLIC_VARIABLES.db.reader.HasRows){
+                    PUBLIC_VARIABLES.db.reader.Read();
+                    this.pcategory_id = Convert.ToDouble(PUBLIC_VARIABLES.db.reader["category_id"].ToString());
+                    this.pcategory_name = PUBLIC_VARIABLES.db.reader["category_name"].ToString();
+                }
+            }
+            catch (Exception e) {
+                MessageBox.Show(e.Message);
+            }
+            PUBLIC_VARIABLES.db.reader.Close();
+        }
+
+
     }
 }
