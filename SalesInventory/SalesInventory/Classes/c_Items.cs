@@ -9,12 +9,13 @@ namespace prjCamsEnterprise.Classes
     class c_Items:BaseClass
     {
         private double item_id;
-        private String item_name;
+        private string item_name;
         private Int32 item_qty;
         private Double m_price;
         private double srp_price;
         private String item_description;
         private Int32 reorder;
+        private string item_code;
         
         //constructor
        public c_Items() : base()
@@ -136,7 +137,31 @@ namespace prjCamsEnterprise.Classes
 
       new  public void save()
         {
+            //item_id, item_name, item_description, item_qty,
+            //m_price, srp_price, reorder
+            
             base.addTable("items"); //table name
+
+            base.addField("item_id");     //Fields
+            base.addField("item_name");
+            base.addField("item_description");
+            base.addField("item_qty");
+            base.addField("m_price");
+            base.addField("srp_price");
+            base.addField("reorder");
+            base.addField("item_code");
+
+            base.addValue("NULL", true);
+            base.addValue(pitem_name);
+            base.addValue(pitem_description);
+            base.addValue(pitem_qty);
+            base.addValue(pm_price);
+            base.addValue(psrp_price);
+            base.addValue(preorder);
+            base.addValue(this.item_code);
+
+            base.save("Record has been successfully save.");
+
         }
     }
 }
