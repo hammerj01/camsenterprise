@@ -28,7 +28,7 @@ namespace SalesInventory.FORMS
 
         private void stocksToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            frmStockIn frm = new frmStockIn();
+            frmStockList frm = new frmStockList();
             frm.ShowDialog();
         }
 

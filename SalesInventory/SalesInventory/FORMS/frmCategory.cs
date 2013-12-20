@@ -11,7 +11,7 @@ namespace SalesInventory.FORMS
 {
     public partial class frmCategory : SalesInventory.FORMS.MyBaseList
     {
-        c_Category cat;
+       private c_Category cat;
         public frmCategory()
         {
             InitializeComponent();
@@ -27,7 +27,7 @@ namespace SalesInventory.FORMS
 
         private void frmCategory_Load(object sender, EventArgs e)
         {
-            this.cat.LoadCategory(this.listView1);
+           // this.cat.LoadCategory(this.listView1);
         }
     }
 }

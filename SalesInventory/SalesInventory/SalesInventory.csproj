@@ -73,11 +73,17 @@
     <Compile Include="FORMS\frmProductEntry.Designer.cs">
       <DependentUpon>frmProductEntry.cs</DependentUpon>
     </Compile>
-    <Compile Include="FORMS\frmUnitOfMeasure.cs">
+    <Compile Include="FORMS\frmStockList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FORMS\frmUnitOfMeasure.Designer.cs">
-      <DependentUpon>frmUnitOfMeasure.cs</DependentUpon>
+    <Compile Include="FORMS\frmStockList.Designer.cs">
+      <DependentUpon>frmStockList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmUnitofMeasure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmUnitofMeasure.Designer.cs">
+      <DependentUpon>frmUnitofMeasure.cs</DependentUpon>
     </Compile>
     <Compile Include="FORMS\mainSalesInventory.cs">
       <SubType>Form</SubType>
@@ -91,37 +97,26 @@
     <Compile Include="FORMS\MyBaseList.Designer.cs">
       <DependentUpon>MyBaseList.cs</DependentUpon>
     </Compile>
-    <Compile Include="FORMS\frmStockIn.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FORMS\frmStockIn.Designer.cs">
-      <DependentUpon>frmStockIn.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FORMS\frmCategory.resx">
       <DependentUpon>frmCategory.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\frmProductEntry.resx">
       <DependentUpon>frmProductEntry.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="FORMS\frmStockIn.resx">
-      <DependentUpon>frmStockIn.cs</DependentUpon>
-      <SubType>Designer</SubType>
+    <EmbeddedResource Include="FORMS\frmStockList.resx">
+      <DependentUpon>frmStockList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FORMS\frmUnitOfMeasure.resx">
-      <DependentUpon>frmUnitOfMeasure.cs</DependentUpon>
+    <EmbeddedResource Include="FORMS\frmUnitofMeasure.resx">
+      <DependentUpon>frmUnitofMeasure.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\mainSalesInventory.resx">
       <DependentUpon>mainSalesInventory.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\MyBaseList.resx">
       <DependentUpon>MyBaseList.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -48,12 +48,12 @@
             this.listView1.FullRowSelect = true;
             this.listView1.GridLines = true;
             this.listView1.Location = new System.Drawing.Point(11, 12);
-            this.listView1.Size = new System.Drawing.Size(690, 297);
+            this.listView1.Size = new System.Drawing.Size(686, 297);
             this.listView1.View = System.Windows.Forms.View.Details;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Size = new System.Drawing.Size(713, 474);
+            this.pictureBox1.Size = new System.Drawing.Size(709, 399);
             // 
             // columnHeader1
             // 
@@ -63,14 +63,15 @@
             // columnHeader2
             // 
             this.columnHeader2.Text = "Category Name";
-            this.columnHeader2.Width = 800;
+            this.columnHeader2.Width = 660;
             // 
             // button1
             // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(13, 391);
+            this.button1.Location = new System.Drawing.Point(419, 322);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(138, 53);
+            this.button1.Size = new System.Drawing.Size(136, 53);
             this.button1.TabIndex = 3;
             this.button1.Text = "&ADD";
             this.button1.UseVisualStyleBackColor = true;
@@ -96,10 +97,11 @@
             // 
             // btnSave
             // 
+            this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSave.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(157, 391);
+            this.btnSave.Location = new System.Drawing.Point(563, 322);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(138, 53);
+            this.btnSave.Size = new System.Drawing.Size(136, 53);
             this.btnSave.TabIndex = 6;
             this.btnSave.Text = "&SAVE";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -108,7 +110,7 @@
             // frmCategory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(713, 474);
+            this.ClientSize = new System.Drawing.Size(709, 399);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtCategory);
             this.Controls.Add(this.label1);
