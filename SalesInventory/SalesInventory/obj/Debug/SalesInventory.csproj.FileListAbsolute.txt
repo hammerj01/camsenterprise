@@ -37,3 +37,5 @@ D:\PROJECTS\gitInventory\camsenterprise\SalesInventory\SalesInventory\obj\Debug\
 D:\PROJECTS\gitInventory\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.exe
 D:\PROJECTS\gitInventory\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.pdb
 D:\PROJECTS\gitInventory\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.FORMS.frmUnitofMeasure.resources
+D:\MY PROJECTS\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.exe
+D:\MY PROJECTS\camsenterprise\SalesInventory\SalesInventory\obj\Debug\SalesInventory.pdb
